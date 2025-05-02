@@ -1,0 +1,1333 @@
+:root {
+    --BG1: #292F36;
+    --BG2: #1A1E23;
+    --Brand1: #12F7D6;
+    --Brand2: #98FAEC;
+    --JS: #E7A020;
+    --CSS: #0C73B8;
+    --Html: #E54F26;
+    --icon-fill: #12F7D6;
+
+    /* --space-unit: 1rem;
+    --space-xxs: calc(0.25 * var(--space-unit));
+    --space-xs: calc(0.5 * var(--space-unit));
+    --space-sm: var(--space-unit);
+    --space-md: calc(1.5 * var(--space-unit));
+    --space-lg: calc(2 * var(--space-unit));
+
+    --font-base: 'IBMPlexMono-Regular', system-ui;
+    --font-heading: 'Ubuntu-Regular', system-ui;
+    --text-base: 1rem;
+    --text-scale: 1.25; */
+}
+
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url(./../Assets/Fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-Medium;
+    src: url(./../Assets/Fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-Light;
+    src: url(./../Assets/Fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexMono-Medium;
+    src: url(./../Assets/Fonts/IBM_Plex_Mono/IBMPlexMono-Medium.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexMono-Regular;
+    src: url(./../Assets/Fonts/IBM_Plex_Mono//IBMPlexMono-Regular.ttf);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+}
+
+img {
+    will-change: transform;
+    transition: transform 0.2s ease;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    /* padding: 0 1rem; */
+    overflow: hidden;
+    width: min(95%, 75rem);
+    margin-inline: auto;
+    padding-inline: var(--space-md);
+}
+
+.scroll svg {
+    animation: float infinite 2s ease-in-out;
+}
+
+@keyframes float {
+    50% {
+        transform: translateY(30px)
+    }
+}
+
+@media (hover: hover) {
+    img:hover {
+        transform: scale(1.02);
+    }
+}
+
+header {
+    background-color: var(--BG1);
+    max-width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1000;
+}
+
+header .container {
+    width: 1384px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+
+}
+
+header .container h1 {
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 500;
+    color: white;
+    font-family: IBMPlexMono-Medium;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+header .container h1 span {
+    color: var(--Brand1);
+}
+
+header .container nav {
+    display: flex;
+    width: 590px;
+    height: 32px;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+header .container nav ul {
+    display: flex;
+    color: white;
+}
+
+header .container nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    font-family: IBMPlexMono-Regular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+header .container nav ul .link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container nav ul .link a img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 2px;
+}
+
+header .container nav ul li a:hover {
+    color: var(--Brand2);
+}
+
+header .container nav ul li a {
+    cursor: pointer;
+    align-items: center;
+    color: white;
+    display: flex;
+    gap: 5px;
+}
+
+.hrr {
+    background-color: var(--BG1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hrr hr {
+    border-color: grey;
+    width: 1384px;
+    position: relative;
+    opacity: 50%;
+}
+
+.hero {
+    background-color: var(--BG1);
+    height: 910px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero nav {
+    background-color: var(--BG2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 64px;
+    height: 326px;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin-top: 20px;
+    position: fixed;
+    left: 20px;
+}
+
+.hero nav a::after {
+    content: "";
+    position: absolute;
+    padding: 8px 16px;
+    border-radius: 5px;
+    left: 70px;
+    display: none;
+    background: white;
+    border-radius: 8px;
+    font-family: Ubuntu-light;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: var(--BG1);
+    width: max-content;
+}
+
+.hero nav a:hover::after {
+    display: block;
+}
+
+.hero nav a.home:hover::after {
+    content: "Home";
+    top: 15px;
+}
+
+.hero nav a.about:hover::after {
+    content: "About Me";
+    top: 80px;
+}
+
+.hero nav a.skillss:hover::after {
+    content: "Skills";
+    top: 145px;
+}
+
+.hero nav a.workss:hover::after {
+    content: "Works";
+    top: 210px;
+}
+
+.hero nav a.contactt:hover::after {
+    content: "Contact";
+    bottom: 15px;
+}
+
+.hero .container nav .home img {
+    width: 24px;
+    height: 24px;
+}
+
+.hero nav svg {
+    cursor: pointer;
+}
+
+.hero .container {
+    width: 1130px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.hero .container .landing {
+    height: 718px;
+    display: grid;
+    grid-template-rows: 134px 520px;
+    row-gap: 40px;
+}
+
+.hero .container .landing h1 {
+    justify-self: center;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 134px;
+    color: var(--Brand2);
+    font-family: Ubuntu-Regular;
+    font-weight: 400;
+}
+
+.hero .container .landing .bottom {
+    display: grid;
+    grid-template-columns: 320px 740px;
+    column-gap: 60px;
+}
+
+.hero .container .landing .bottom .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 32px;
+    border: 4px solid white;
+    box-shadow: -4px -4px 2px var(--Brand1);
+    border-radius: 160px 0px;
+}
+
+.hero .container .landing .bottom .left .top {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.hero .container .landing .bottom .left .top img {
+    padding: 0px;
+    width: 96px;
+    height: 96px;
+}
+
+.hero .container .landing .bottom .left .top span {
+    color: white;
+    font-family: IBMPlexMono-Medium;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    position: relative;
+}
+
+.hero .container .landing .bottom .left .top span p {
+    position: absolute;
+    width: 168px;
+    height: 18px;
+    right: -38px;
+    top: 42px;
+    font-family: IBMPlexMono-Regular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+}
+
+.hero .container .landing .bottom .left ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 16px;
+    width: 274px;
+    height: 120px;
+    margin-top: 15px;
+}
+
+.hero .container .landing .bottom .left ul li {
+    display: flex;
+    column-gap: 14px;
+    color: white;
+    align-items: center;
+    width: 274px;
+    height: 18px;
+    font-family: IBMPlexMono-Regular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.hero .container .landing .bottom .left button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 56px;
+    padding: 16px 32px;
+    gap: 10px;
+    background: white;
+    border-radius: 32px;
+    font-family: Ubuntu-Regular;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--BG1);
+    cursor: pointer;
+    position: relative;
+    right: 5px;
+    z-index: 1;
+}
+
+.hero .container .landing .bottom .left button::before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--Brand1);
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.4s ease-in-out;
+    border-radius: 32px;
+}
+
+.hero .container .landing .bottom .left button:hover::before {
+    width: 100%;
+}
+
+.hero .container .landing .bottom .right {
+    display: grid;
+    grid-template-columns: 485px 215px;
+    column-gap: 30px;
+}
+
+.hero .container .landing .bottom .right .info {
+    color: white;
+}
+
+.hero .container .landing .bottom .right .info .connect {
+    font-family: IBMPlexMono-Medium;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: var(--Brand1);
+    height: 42px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero .container .landing .bottom .right .info .connect svg {
+    background-color: #43454D;
+    padding: 8px;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s ease-out;
+}
+
+.hero .container .landing .bottom .right .info .connect svg:hover {
+    transform: translateX(30px);
+}
+
+.hero .container .landing .bottom .right .info h2 {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    font-family: Ubuntu-Regular;
+}
+
+.hero .container .landing .bottom .right .info p {
+    font-family: IBMPlexMono-Regular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.hero .container .landing .bottom .right .info p span {
+    color: var(--Brand2);
+    font-family: IBMPlexMono-Regular;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.hero .container .landing .bottom .right .info h2 .name {
+    color: var(--Brand1);
+}
+
+.hero .container .landing .bottom .right .info h2 .tag {
+    color: var(--Brand2);
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: IBMPlexMono-Regular;
+}
+
+.hero .container .landing .bottom .right .right-spans {
+    background-color: var(--BG2);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 48px 32px;
+    gap: 48px;
+    width: 215px;
+    height: 378px;
+}
+
+.hero .container .landing .bottom .right .right-spans span {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    color: var(--Brand1);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    font-family: IBMPlexMono-Medium;
+}
+
+.hero .container .landing .bottom .right .right-spans span p {
+    color: white;
+    font-family: IBMPlexMono-Regular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.about-me {
+    width: 100%;
+    height: 1080px;
+    background: url(./../Assets/Images/About\ me.png), var(--BG2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me .container {
+    width: 85%;
+}
+
+.about-me .container .scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    height: 140px;
+    margin-bottom: 100px;
+}
+
+.about-me .container .about-con {
+    display: grid;
+    grid-template-columns: 680px 462px;
+    width: 100%;
+    column-gap: 150px;
+}
+
+.about-me .container .about-con .left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.about-me .container .about-con .right {
+    border-radius: 16px;
+    height: 556px;
+}
+
+.about-me .container .about-con .left .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 367px;
+    height: 104px;
+    background: var(--BG1);
+    border: 4px solid var(--Brand1);
+    border-radius: 40px 0px;
+    font-family: Ubuntu-Regular;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: white;
+}
+
+.about-me .container .about-con .left p {
+    height: 377px;
+    border-radius: 40px;
+    background-color: var(--BG1);
+    padding: 24px 40px;
+    font-family: IBMPlexMono-Regular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+.about-me .container .about-con .left p span {
+    color: var(--Brand2);
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: IBMPlexMono-Regular;
+}
+
+.skills {
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(./../Assets/Images/Skills.png), var(--BG1);
+}
+
+.skills .container {
+    width: 85%;
+    height: 824px;
+}
+
+.skills .container .top {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.skills .container .top .code {
+    position: absolute;
+    left: 900px;
+}
+
+.skills .container .scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    height: 140px;
+    margin-bottom: 100px;
+}
+
+.skills .container .skills-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.skills .container .skills-con .title {
+    position: relative;
+    font-family: Ubuntu-Regular;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--Brand1);
+}
+
+.skills .container .skills-con hr {
+    width: 148px;
+    border: 2px solid var(--Brand1);
+}
+
+.skills .container .skills-con .title::before {
+    position: absolute;
+    content: '';
+    left: -9px;
+    bottom: -21.5px;
+    background-color: var(--Brand1);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.skills .container .skills-con .title::after {
+    position: absolute;
+    content: '';
+    right: -9px;
+    bottom: -21.5px;
+    background-color: var(--Brand1);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.skills .container .skills-con p {
+    width: 664px;
+    font-family: IBMPlexMono-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+}
+
+.skills .container .skills-con .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 8px;
+    width: 288px;
+    height: 132px;
+    border-radius: 8px;
+    background-color: var(--Brand2);
+    margin-top: 30px;
+    font-family: IBMPlexMono-Regular;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: var(--BG1);
+}
+
+.skills .container .skills-con .card::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    background-color: var(--CSS);
+    top: 0;
+    left: 0;
+    width: 8px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.skills .container .skills-con .card span {
+    font-family: IBMPlexMono-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #43454D;
+}
+
+.skills .skills-controls {
+    position: relative;
+    bottom: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+}
+
+.skills .container .skills-controls button {
+    background-color: var(--BG2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 48px;
+    width: 72px;
+    height: 72px;
+    cursor: pointer;
+}
+
+.skills .skills-controls button.right-button.disabled,
+.skills .skills-controls button.left-button.disabled {
+    background-color: #efefef63;
+    cursor: no-drop;
+}
+
+.skills .container .cards {
+    position: relative;
+    height: 210px;
+    margin-top: 50px;
+    left: 580px;
+    width: 144px;
+}
+
+.skills .container .cards .card {
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s;
+    padding: 40px;
+    border-radius: 80px;
+    width: 144px;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.skills .container .cards .card.active {
+    opacity: 1;
+}
+
+.skills .container .cards .html {
+    background-color: var(--Html);
+}
+
+.skills .container .cards .css {
+    background-color: var(--CSS);
+}
+
+.skills .container .cards .angular {
+    background-color: #b73537;
+}
+
+.skills .container .cards .js {
+    background-color: var(--JS);
+}
+
+.skills .container .cards .ts {
+    background-color: #1976D2;
+}
+
+.skills .container .cards .git {
+    background-color: #f4532e;
+}
+
+.skills .container .cards .ui {
+    background-color: #29B6F6;
+}
+
+.skills .container .cards .boot {
+    background-color: #7c4dff;
+}
+
+.skills .container .cards img {
+    height: 70px;
+    width: 70px;
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+    height: 1180px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--BG2);
+    padding: 64px 0px 16px;
+    gap: 64px;
+}
+
+.contact .container {
+    width: 85%;
+    height: 924px;
+}
+
+.contact .container .scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    height: 140px;
+    margin-bottom: 100px;
+}
+
+.contact footer {
+    height: 75px;
+    width: 100%;
+}
+
+.contact footer hr {
+    border-color: grey;
+    opacity: 50%;
+}
+
+.contact footer .content {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 108px;
+    justify-content: space-around;
+    font-family: Ubuntu-Light;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    width: 100%;
+}
+
+.contact footer .content ul {
+    display: flex;
+    column-gap: 25px;
+}
+
+.contact footer .content ul .link a img {
+    width: 20px;
+    height: 20px;
+}
+
+.contact footer .content ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    width: 32px;
+    height: 32px;
+    background: var(--Brand2);
+    border-radius: 48px;
+    cursor: pointer;
+}
+
+.contact .container .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.contact .container .title .hr {
+    position: relative;
+}
+
+.contact .container .title .hr::before {
+    position: absolute;
+    content: '';
+    left: -9px;
+    bottom: -3px;
+    background-color: var(--Brand1);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.contact .container .title .hr::after {
+    position: absolute;
+    content: '';
+    right: -9px;
+    bottom: -3px;
+    background-color: var(--Brand1);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.contact .container .title .first-s {
+    font-family: Ubuntu-Regular;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--Brand1);
+}
+
+.contact .container .title .hr hr {
+    width: 228px;
+    border: 2px solid var(--Brand1);
+}
+
+.contact .container form .second-s {
+    border: 2px solid var(--Brand1);
+    border-radius: 32px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px 40px;
+    height: 74px;
+    width: 410px;
+    font-family: IBMPlexMono-Medium;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: var(--Brand1);
+}
+
+.contact .container .title p {
+    font-family: IBMPlexMono-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+}
+
+.contact .container form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    width: 100%;
+    height: 458px;
+}
+
+.contact .container form .inputs {
+    display: grid;
+    grid-template-columns: 620px 520px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.contact .container form .inputs .input input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 496px;
+    height: 26px;
+    background-color: transparent;
+    border-bottom: var(--Brand1) solid 2px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.contact .container form .inputs .input input:focus {
+    background-color: white;
+}
+
+.contact .container form .inputs .input input:focus::placeholder {
+    color: var(--BG1);
+    opacity: 0.8;
+}
+
+.contact .container form .inputs .third input {
+    width: 1120px;
+}
+
+.contact .container form .inputs input::placeholder {
+    font-family: Ubuntu-Light;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+}
+
+.contact .container form .inputs label {
+    font-family: Ubuntu-Light;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--Brand1);
+}
+
+.contact .container form button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 234px;
+    height: 56px;
+    background: var(--Brand1);
+    border-radius: 32px;
+    font-family: Ubuntu-regular;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--BG1);
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.contact .container form button::before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.5s ease-in-out;
+    border-radius: 32px;
+}
+
+.contact .container form button:hover::before {
+    width: 100%;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 128px;
+    gap: 64px;
+    height: 1080px;
+    background: url(./../Assets/Images/Works.png), var(--BG2);
+}
+
+.works .container {
+    width: 85%;
+}
+
+.works .container .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.works .container .scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    height: 140px;
+    margin-bottom: 100px;
+}
+
+.works .container .title .first-s {
+    font-family: Ubuntu-Regular;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--Brand1);
+}
+
+.works .container .title .hr {
+    position: relative;
+}
+
+.works .container .title .hr::before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: -3px;
+    background-color: var(--Brand1);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.works .container .title .hr::after {
+    position: absolute;
+    content: '';
+    right: 0px;
+    bottom: -3px;
+    background-color: var(--Brand1);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.works .container .title .hr hr {
+    width: 183px;
+    border: 2px solid var(--Brand1);
+}
+
+.works .container .title p {
+    font-family: IBMPlexMono-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+}
+
+.projects {
+    padding: 0px;
+    height: 432px;
+    width: 800px;
+}
+
+.projects .slider-container {
+    position: relative;
+    height: 432px;
+    width: 100vw;
+    left: 136px;
+    top: 40px;
+}
+
+.projects .slider-container a img {
+    width: 800px;
+    height: 432px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    /* border-radius: 16px; */
+    /* display: block; */
+    /* width: 100%; */
+    /* height: auto; */
+    /* z-index: 1; */
+}
+
+.projects .slider-container a img.active {
+    opacity: 1;
+}
+
+/* .projects .slider-container a {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    display: block;
+
+} */
+
+/* 
+.projects .slider-container a::after {
+    content: "test";
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: top 0.4s ease-in-out;
+    z-index: 5; 
+    outline: 2px solid red; 
+}
+
+.projects .slider-container a.active:hover::after {
+    top: 0; 
+} */
+
+.projects .slider-controls {
+    left: 136px;
+    position: relative;
+}
+
+.projects .slider-controls button {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #292F36;
+    border-radius: 48px;
+    width: 72px;
+    height: 72px;
+    cursor: pointer;
+}
+
+.projects .slider-controls button.right {
+    position: absolute;
+    bottom: 150px;
+    left: 850px;
+}
+
+.projects .slider-controls button.left {
+    position: absolute;
+    bottom: 150px;
+    right: 850px;
+}
+
+.projects .slider-controls button.right.disabled,
+.projects .slider-controls button.left.disabled {
+    background-color: #efefef63;
+    cursor: no-drop;
+}
+
+@media (max-width: 1024px) {
+    header {
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    header .container {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1rem;
+        height: auto !important;
+    }
+
+    header .container nav {
+        width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+        overflow: visible;
+    }
+
+    header .container nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        overflow-x: visible;
+        padding-bottom: 0;
+    }
+
+    header .container nav ul li {
+        width: auto;
+        flex-shrink: 0;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero .container {
+        margin-top: 1.5rem;
+    }
+
+    .hero .container .landing h1 {
+        font-size: clamp(2.5rem, 8vw, 4rem);
+        line-height: 1.15;
+        text-align: center;
+    }
+
+    .hero .container .landing .bottom {
+        gap: 2rem;
+    }
+
+    .hero .container .landing .bottom .right .right-spans {
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header .container nav ul {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media (max-width: 480px) {
+    header .container h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    header .container nav ul {
+        gap: 0.5rem;
+        font-size: 0.875rem;
+    }
+}
