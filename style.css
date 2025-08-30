@@ -93,15 +93,18 @@ svg {
     display: block;
 }
 
+#link {
+    margin-top: 5px;
+}
+
 .container {
-    /* padding: 0 1rem; */
     overflow: hidden;
     width: min(95%, 75rem);
     margin-inline: auto;
     padding-inline: var(--space-md);
 }
 
-.scroll svg {
+.scroll img {
     animation: float infinite 2s ease-in-out;
 }
 
@@ -452,7 +455,7 @@ header .container nav ul li a {
     margin-top: 20px;
 }
 
-.hero .container .landing .bottom .right .info .connect svg {
+.hero .container .landing .bottom .right .info .connect img {
     background-color: #43454D;
     padding: 8px;
     border-radius: 40px;
@@ -461,7 +464,7 @@ header .container nav ul li a {
     transition: 0.3s ease-out;
 }
 
-.hero .container .landing .bottom .right .info .connect svg:hover {
+.hero .container .landing .bottom .right .info .connect img:hover {
     transform: translateX(30px);
 }
 
@@ -628,12 +631,10 @@ header .container nav ul li a {
 .skills .container .top {
     display: flex;
     justify-content: center;
-    position: relative;
 }
 
-.skills .container .top .code {
-    position: absolute;
-    left: 900px;
+.skills .container .top .angle {
+    margin-left: auto
 }
 
 .skills .container .scroll {
@@ -643,6 +644,8 @@ header .container nav ul li a {
     gap: 24px;
     height: 140px;
     margin-bottom: 100px;
+    position: relative;
+    left: 625px;
 }
 
 .skills .container .skills-con {
