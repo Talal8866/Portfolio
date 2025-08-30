@@ -348,7 +348,7 @@ header .container nav ul li a {
     height: 96px;
 }
 
-.hero .container .landing .bottom .left .top span {
+.hero .container .landing .bottom .left .top .name {
     color: white;
     font-family: IBMPlexMono-Medium;
     font-weight: 500;
@@ -357,7 +357,7 @@ header .container nav ul li a {
     position: relative;
 }
 
-.hero .container .landing .bottom .left .top span p {
+.hero .container .landing .bottom .left .top .name p {
     position: absolute;
     width: 168px;
     height: 18px;
