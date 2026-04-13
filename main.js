@@ -36,8 +36,8 @@
       'skills.sub': 'Continuously learning, constantly building.',
       'skills.all': 'All',
       'skills.lang': 'Languages',
-      'skills.fw': 'Frameworks',
-      'skills.tools': 'Tools',
+      'skills.fw': 'Frameworks & Libraries',
+      'skills.Tools & Platforms': 'Tools & Platforms',
 
       'lv.expert': 'Expert',
       'lv.advanced': 'Advanced',
@@ -102,7 +102,7 @@
       'skills.all': 'الكل',
       'skills.lang': 'اللغات',
       'skills.fw': 'الأطر البرمجية',
-      'skills.tools': 'الأدوات',
+      'skills.Tools & Platforms': 'الأدوات',
 
       'lv.expert': 'خبير',
       'lv.advanced': 'متقدم',
