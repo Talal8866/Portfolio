@@ -12,25 +12,25 @@
       'nav.works': 'Works',
       'nav.contact': 'Contact',
 
-      'hero.role': 'Software Engineer',
+      'hero.role': "Frontend Developer",
       'hero.location': 'Syria · Remote',
       'hero.status': 'Freelancer · Open to Work',
       'hero.cv': 'Download CV',
       'hero.badge': 'Available for Projects',
       'hero.greeting': "Hey, I'm",
-      'hero.title': 'Software Engineer',
-      'hero.desc': 'I architect and build fast, scalable web applications  from system design to pixel-perfect UI. Specialising in Angular, TypeScript & modern front-end ecosystems.',
+      'hero.title': "Frontend Developer",
+      'hero.desc': "I build fast, responsive web applications, from clean UI to REST API integration. Specialising in Angular, TypeScript & React.",
       'hero.cta': "Let's Connect",
       'hero.cta2': 'See My Work',
 
       'stat.exp': 'Years Experience',
-      'stat.projects': 'Projects Shipped',
+      'stat.projects': 'Projects Built',
       'stat.tech': 'Technologies',
 
       'about.badge': 'Clean Code',
       'about.title': 'About Me',
-      'about.p1': "I'm a Software Engineer with a strong focus on front-end architecture and full-stack web development. I build dynamic, responsive applications using Angular, TypeScript, and JavaScript  while staying fluent in the broader engineering landscape: REST APIs, system design, and clean architecture.",
-      'about.p2': 'Holding a Software Engineering degree from the Syrian Virtual University, I bring both theoretical depth and hands-on experience. I love turning complex problems into elegant, scalable solutions, and I\'m actively seeking remote and freelance opportunities.',
+      'about.p1': "I'm a Frontend Developer building dynamic, responsive web applications with Angular, React, TypeScript, and JavaScript. I integrate REST APIs, build reusable component libraries, and care about SEO and performance.",
+      'about.p2': "Holding a B.Sc. in Information Technology Engineering (Software Development) from the Syrian Virtual University, I bring both theoretical grounding and hands-on experience. I'm actively seeking remote and freelance frontend opportunities.",
 
       'skills.title': 'Technical Skills',
       'skills.sub': 'Continuously learning, constantly building.',
@@ -48,11 +48,13 @@
       'works.sub': "Projects I've designed, built & shipped.",
       'works.view': 'View Project →',
       'works.soon': 'Coming Soon',
+      'works.goldenkey': "A full production website for Golden Key Lock Repairing EST, built with Angular 20.",
       'works.souk': 'E-commerce web app with cart, authentication & product management.',
       'works.darrebni': 'Full-featured educational platform  academic capstone project.',
       'works.space': 'Frontend Mentor challenge  immersive multi-page UI.',
       'works.school': 'Comprehensive school system with dashboards, roles & reports.',
       'works.arkhas': 'online store website built on an intelligent system that accurately and effectively compares product prices.',
+      'works.tracker': "Personal daily planner and habit tracker, built for phone use.",
       'works.ads':  'An advertising platform with a control panel.',
 
 
@@ -67,7 +69,7 @@
       'form.msgPH': 'Tell me about your project…',
       'form.send': 'Send Message',
 
-      'footer.copy': '© 2025 Talal Alsebai. All rights reserved.',
+      'footer.copy': "© 2026 Talal Alsebai. All rights reserved.",
     },
 
     ar: {
@@ -77,14 +79,14 @@
       'nav.works': 'الأعمال',
       'nav.contact': 'التواصل',
 
-      'hero.role': 'مهندس برمجيات',
+      'hero.role': "مطور واجهات أمامية",
       'hero.location': 'سوريا · عن بُعد',
       'hero.status': 'فري لانسر · متاح للعمل',
       'hero.cv': 'تحميل السيرة الذاتية',
       'hero.badge': 'متاح للمشاريع',
       'hero.greeting': 'مرحباً، أنا',
-      'hero.title': 'مهندس برمجيات',
-      'hero.desc': 'أصمّم وأبني تطبيقات ويب سريعة وقابلة للتوسع  من تصميم الأنظمة إلى واجهات مستخدم احترافية. متخصص في Angular وTypeScript وأحدث تقنيات الواجهة الأمامية.',
+      'hero.title': "مطور واجهات أمامية",
+      'hero.desc': "أبني تطبيقات ويب سريعة ومتجاوبة، من واجهات مستخدم نظيفة إلى ربط الواجهات مع REST APIs. متخصص في Angular وTypeScript وReact.",
       'hero.cta': 'تواصل معي',
       'hero.cta2': 'اعمالي',
 
@@ -94,8 +96,8 @@
 
       'about.badge': 'كود نظيف',
       'about.title': 'عني',
-      'about.p1': 'أنا مهندس برمجيات متخصص في تطوير الواجهات الأمامية وتطوير الويب الكامل. أبني تطبيقات ديناميكية وسريعة الاستجابة باستخدام Angular وTypeScript وJavaScript، مع إلمام واسع بالبنية المعمارية للبرمجيات وواجهات REST APIs.',
-      'about.p2': 'حاصل على درجة في هندسة البرمجيات من الجامعة الافتراضية السورية. أسعى دائماً إلى تحويل المشاكل المعقدة إلى حلول أنيقة وقابلة للتوسع، وأتطلع للفرص عن بُعد والمشاريع الحرة.',
+      'about.p1': "أنا مطور واجهات أمامية، أبني تطبيقات ويب ديناميكية ومتجاوبة باستخدام Angular وReact وTypeScript وJavaScript. أعمل على ربط REST APIs وبناء مكتبات مكوّنات قابلة لإعادة الاستخدام، وأهتم بتحسين محركات البحث والأداء.",
+      'about.p2': "حاصل على بكالوريوس هندسة تقانة المعلومات (تطوير البرمجيات) من الجامعة الافتراضية السورية، وأجمع بين الأساس النظري والخبرة العملية. أسعى للفرص عن بُعد والمشاريع الحرة.",
 
       'skills.title': 'المهارات التقنية',
       'skills.sub': 'تعلم مستمر، بناء دائم.',
@@ -113,11 +115,13 @@
       'works.sub': 'مشاريع صمّمتها وبنيتها وسلّمتها.',
       'works.view': 'عرض المشروع →',
       'works.soon': 'قريباً',
+      'works.goldenkey': "موقع إنتاجي متكامل لمؤسسة المفتاح الذهبي لإصلاح الأقفال، مبني بـ Angular 20.",
       'works.souk': 'موقع تجارة إلكترونية مع سلة المشتريات والمصادقة وإدارة المنتجات.',
       'works.darrebni': 'منصة تعليمية متكاملة  مشروع التخرج.',
       'works.space': 'تحدي Frontend Mentor  واجهة مستخدم متعددة الصفحات.',
       'works.school': 'نظام إدارة مدرسة شامل مع لوحات تحكم وأدوار وتقارير.',
       'works.arkhas': 'موقع متجر الكتروني مبني على نظام ذكي يقارن أسعار المنتجات بدقة وفعالية',
+      'works.tracker': "مخطط يومي ومتتبع للعادات الشخصية، مصمم للاستخدام على الهاتف.",
       'works.ads': 'منصة عرض اعلانات مع لوحة تحكم',
 
       'contact.title': 'لنعمل معاً',
@@ -131,7 +135,7 @@
       'form.msgPH': 'أخبرني عن مشروعك…',
       'form.send': 'إرسال الرسالة',
 
-      'footer.copy': '© 2025 طلال السبعي. جميع الحقوق محفوظة.',
+      'footer.copy': "© 2026 طلال السبعي. جميع الحقوق محفوظة.",
     }
   };
 
