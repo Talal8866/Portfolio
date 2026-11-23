@@ -1,12 +1,12 @@
 # Talal Alsebai - Frontend Developer Portfolio
 
-## 👋 About Me
+##  About Me
 
 I help businesses grow by crafting amazing web experiences. As a dedicated frontend developer with 3+ years of experience, I specialize in creating seamless and user-friendly web applications that drive results.
 
 I'm passionate about building dynamic and responsive websites using modern technologies, with a strong focus on Angular development. My commitment to continuous learning and staying current with industry trends ensures I deliver cutting-edge solutions that meet today's digital demands.
 
-## 🚀 What I Do
+##  What I Do
 
 I specialize in transforming ideas into engaging digital experiences through:
 - **Frontend Development**: Building responsive, interactive web applications
@@ -14,7 +14,7 @@ I specialize in transforming ideas into engaging digital experiences through:
 - **Problem Solving**: Tackling complex technical challenges with creative solutions
 - **Team Collaboration**: Working effectively with cross-functional teams to deliver quality projects
 
-## 💻 Technical Skills
+##  Technical Skills
 
 ### Programming Languages
 - **JavaScript** - Dynamic web functionality
@@ -34,7 +34,7 @@ I specialize in transforming ideas into engaging digital experiences through:
 - **Modern Build Tools** - Webpack, CLI tools
 - **Browser DevTools** - Debugging and optimization
 
-## 🌟 Professional Approach
+##  Professional Approach
 
 **User-Centric Design**: Every project starts with understanding user needs and creating solutions that genuinely improve their experience.
 
@@ -44,21 +44,21 @@ I specialize in transforming ideas into engaging digital experiences through:
 
 **Collaborative Spirit**: I thrive in team environments and enjoy working with designers, backend developers, and stakeholders to bring projects to life.
 
-## 🎨 Portfolio Highlights
+##  Portfolio Highlights
 
-✨ **Responsive Design**: All projects are built with mobile-first approach
-🚀 **Performance Focused**: Optimized for speed and user experience
-🎯 **Business Impact**: Solutions that drive real results for clients
-🔧 **Modern Tech Stack**: Leveraging the latest web technologies
+ **Responsive Design**: All projects are built with mobile-first approach
+ **Performance Focused**: Optimized for speed and user experience
+ **Business Impact**: Solutions that drive real results for clients
+ **Modern Tech Stack**: Leveraging the latest web technologies
 
-## 📈 Experience & Growth
+##  Experience & Growth
 
 - **3+ Years** of hands-on development experience
 - **5+ Programming Languages** in my toolkit
 - **Multiple Frameworks** mastered for diverse project needs
 - **Continuous Learning** mindset with regular skill updates
 
-## 🤝 Let's Work Together
+##  Let's Work Together
 
 I'm currently available for freelance work and exciting new opportunities. Whether you need:
 - A complete web application built from scratch
@@ -68,15 +68,15 @@ I'm currently available for freelance work and exciting new opportunities. Wheth
 
 I'm here to help bring your ideas to life with clean, efficient, and engaging web solutions.
 
-## 📞 Get In Touch
+##  Get In Touch
 
 - **Portfolio**: [talal8866.github.io/Portfolio](https://talal8866.github.io/Portfolio/)
 - **GitHub**: [github.com/Talal8866](https://github.com/Talal8866)
 - **LinkedIn**: [Connect with me](https://www.linkedin.com/in/talal-alsebai-b8441a1bb/)
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Email**: [Talalalsebai2001@gmail.com](mailto:Talalalsebai2001@gmail.com)
 
 ---
 
-**💡 "I am striving to never stop learning and improving"**
+** "I am striving to never stop learning and improving"**
 
 *Ready to craft your next amazing web experience? Let's build something great together!*
