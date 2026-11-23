@@ -1,82 +1,30 @@
-# Talal Alsebai - Frontend Developer Portfolio
+# Talal Alsebai | Frontend Developer
 
-##  About Me
+Frontend developer with 3+ years of experience building responsive web applications with Angular, React, and TypeScript. I focus on maintainable interfaces, API integration, performance, and accessible, cross-browser user experiences.
 
-I help businesses grow by crafting amazing web experiences. As a dedicated frontend developer with 3+ years of experience, I specialize in creating seamless and user-friendly web applications that drive results.
+Based in Homs, Syria. Open to remote roles, freelance projects, and collaboration.
 
-I'm passionate about building dynamic and responsive websites using modern technologies, with a strong focus on Angular development. My commitment to continuous learning and staying current with industry trends ensures I deliver cutting-edge solutions that meet today's digital demands.
+## Selected Work
 
-##  What I Do
+- **[Golden Key](https://goldenkeyuae.com)** — Production business website built with Angular SSR, RxJS, and Sass. Improved Core Web Vitals to the Good range, reached a 97 performance score, and achieved top-three Google rankings for target local-service searches.
+- **[Souk Plus](https://github.com/Talal8866/Souk_Plus)** — E-commerce platform with reusable Angular components, checkout and cart flows, JWT authentication, and a Node.js/MongoDB REST API.
+- **[School Management System](https://github.com/Talal8866/School-Management-System)** — Responsive, multilingual student and teacher management interface built with Angular and TypeScript.
+- **[Life Tracker](https://talal8866.github.io/Life-Tracker-App/)** — Mobile-first planner and habit tracker built with JavaScript, HTML, and CSS, with Firebase sync and offline support.
 
-I specialize in transforming ideas into engaging digital experiences through:
-- **Frontend Development**: Building responsive, interactive web applications
-- **UI/UX Implementation**: Creating intuitive user interfaces that enhance user experience
-- **Problem Solving**: Tackling complex technical challenges with creative solutions
-- **Team Collaboration**: Working effectively with cross-functional teams to deliver quality projects
+The portfolio also features a React-based environmental and geospatial data platform, an academic education platform, and additional web projects.
 
-##  Technical Skills
+## Skills
 
-### Programming Languages
-- **JavaScript** - Dynamic web functionality
-- **TypeScript** - Type-safe application development
-- **HTML5** - Modern web markup
-- **CSS3** - Responsive styling and animations
-- **Additional Languages** - Expanding toolkit for diverse project needs
+- **Frontend:** Angular, React, TypeScript, JavaScript, HTML5, CSS3, Sass, RxJS
+- **UI and design:** Angular Material, Bootstrap, responsive design, Figma
+- **APIs and data:** REST APIs, Node.js, MongoDB, Firebase, JWT, SQL
+- **Delivery and quality:** Git, GitHub Actions, CI/CD, Hostinger, Docker, Core Web Vitals, SEO, JSON-LD
 
-### Frameworks & Libraries
-- **Angular 16+** - Primary framework for building scalable applications
-- **Bootstrap** - Responsive design framework
-- **Angular Material** - UI component library
+## About This Portfolio
 
-### Development Tools
-- **Git** - Version control and collaboration
-- **VS Code** - Primary development environment
-- **Modern Build Tools** - Webpack, CLI tools
-- **Browser DevTools** - Debugging and optimization
+This repository contains the source for my portfolio site, built with HTML, CSS, and JavaScript. It presents selected projects, technical skills, and contact information.
 
-##  Professional Approach
-
-**User-Centric Design**: Every project starts with understanding user needs and creating solutions that genuinely improve their experience.
-
-**Quality & Detail**: My attention to detail ensures clean, maintainable code and polished user interfaces.
-
-**Continuous Growth**: I'm committed to staying current with the latest technologies and best practices in web development.
-
-**Collaborative Spirit**: I thrive in team environments and enjoy working with designers, backend developers, and stakeholders to bring projects to life.
-
-##  Portfolio Highlights
-
- **Responsive Design**: All projects are built with mobile-first approach
- **Performance Focused**: Optimized for speed and user experience
- **Business Impact**: Solutions that drive real results for clients
- **Modern Tech Stack**: Leveraging the latest web technologies
-
-##  Experience & Growth
-
-- **3+ Years** of hands-on development experience
-- **5+ Programming Languages** in my toolkit
-- **Multiple Frameworks** mastered for diverse project needs
-- **Continuous Learning** mindset with regular skill updates
-
-##  Let's Work Together
-
-I'm currently available for freelance work and exciting new opportunities. Whether you need:
-- A complete web application built from scratch
-- Frontend development for existing projects
-- UI/UX improvements for better user engagement
-- Technical consultation for your web initiatives
-
-I'm here to help bring your ideas to life with clean, efficient, and engaging web solutions.
-
-##  Get In Touch
-
-- **Portfolio**: [talal8866.github.io/Portfolio](https://talal8866.github.io/Portfolio/)
-- **GitHub**: [github.com/Talal8866](https://github.com/Talal8866)
-- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/talal-alsebai-b8441a1bb/)
-- **Email**: [Talalalsebai2001@gmail.com](mailto:Talalalsebai2001@gmail.com)
-
----
-
-** "I am striving to never stop learning and improving"**
-
-*Ready to craft your next amazing web experience? Let's build something great together!*
+- **Live site:** [talal8866.github.io/Portfolio](https://talal8866.github.io/Portfolio/)
+- **GitHub:** [github.com/Talal8866](https://github.com/Talal8866)
+- **LinkedIn:** [Talal Alsebai](https://www.linkedin.com/in/talal-alsebai-b8441a1bb/)
+- **Email:** [talalalsebai2001@gmail.com](mailto:talalalsebai2001@gmail.com)
